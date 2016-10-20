@@ -32,3 +32,10 @@ body, html {
   radial-gradient(2px 2px at 190px 150px, #ddd, rgba(0, 0, 0, 0));
   background-repeat: repeat;
   }
+  /*Work with layer animation modes*/
+  .starfield > * {
+    transform-origin: 50% 50%;
+    animation-name: starfieldRotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
