@@ -4,3 +4,11 @@ body, html {
   height: 100%;
   background: #000;
 }
+/*Creating starfield container*/
+.starfield{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
